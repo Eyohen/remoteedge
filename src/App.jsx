@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage'
 import HireTalentPage from './pages/HireTalentPage'
 import ResultsPage from './pages/ResultsPage'
 import AboutPage from './pages/AboutPage'
+import ContactPage from './pages/ContactPage'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path="/hire" element={<HireTalentPage />} />
       <Route path="/results" element={<ResultsPage />} />
       <Route path="/about" element={<AboutPage />} />
+      <Route path="/contact" element={<ContactPage />} />
     </Routes>
   )
 }
